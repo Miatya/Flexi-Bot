@@ -4,11 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-"discord.py" = "==2.0.1"
-asyncio = "*"
-apscheduler = "*"
+hikari = "*"
+hikari-arc = "*"
+python-dotenv = "*"
+prisma = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.11"
